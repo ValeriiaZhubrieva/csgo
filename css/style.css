@@ -6923,8 +6923,8 @@ body {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
-    -webkit-transform: rotateX(0deg) skew(0deg);
-            transform: rotateX(0deg) skew(0deg);
+    /* -webkit-transform: rotateX(0deg) skew(0deg);
+            transform: rotateX(0deg) skew(0deg); */
   }
 
   .menu__list .submenu__item:hover > .submenu {
