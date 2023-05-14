@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>404</title>
+	<title>Post Review</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -431,18 +431,475 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__error error">
-				<div class="error__container">
-					<div class="error__inner">
-						<div class="error__404">
-							404
+			<section class="page__review review">
+				<div class="review__container">
+					<div class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__link">
+									<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.443359 8.435L3.87836 5L0.443359 1.5575L1.50086 0.5L6.00086 5L1.50086 9.5L0.443359 8.435Z" fill="#7B8CAC" />
+									</svg>
+									Blog</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__link">
+									<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.443359 8.435L3.87836 5L0.443359 1.5575L1.50086 0.5L6.00086 5L1.50086 9.5L0.443359 8.435Z" fill="#7B8CAC" />
+									</svg>
+									reviews</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__link">
+									<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.443359 8.435L3.87836 5L0.443359 1.5575L1.50086 0.5L6.00086 5L1.50086 9.5L0.443359 8.435Z" fill="#0057FF" />
+									</svg>
+									The Best Ursus Knife Skins in CS:GO</a>
+							</li>
+						</ul>
+					</div>
+					<div class="review__banner">
+						<picture><source srcset="img/review/banner.webp" type="image/webp"><img src="img/review/banner.jpg" alt="banner"></picture>
+					</div>
+					<div class="review__inner">
+						<aside class="review__aside aside-post">
+							<div class="aside-post__search search-block">
+								<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Search" class="search-block__input">
+								<button type="button" class="search-block__btn"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.5 0C8.22391 0 9.87721 0.684819 11.0962 1.90381C12.3152 3.12279 13 4.77609 13 6.5C13 8.11 12.41 9.59 11.44 10.73L11.71 11H12.5L17.5 16L16 17.5L11 12.5V11.71L10.73 11.44C9.59 12.41 8.11 13 6.5 13C4.77609 13 3.12279 12.3152 1.90381 11.0962C0.684819 9.87721 0 8.22391 0 6.5C0 4.77609 0.684819 3.12279 1.90381 1.90381C3.12279 0.684819 4.77609 0 6.5 0ZM6.5 2C4 2 2 4 2 6.5C2 9 4 11 6.5 11C9 11 11 9 11 6.5C11 4 9 2 6.5 2Z" fill="#7B8CAC" />
+									</svg></button>
+							</div>
+							<div class="aside-post__latest latest-block">
+								<h3 class="latest-block__title">Latest Reviews</h3>
+								<div class="latest-block__items">
+									<div class="latest-block__item">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.84 19.79 7.69 19.39 6.61L17.79 8.21C17.93 8.8 18 9.4 18 10C18 12.1217 17.1571 14.1566 15.6569 15.6569C14.1566 17.1571 12.1217 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84285 14.1566 2 12.1217 2 10C2 7.87827 2.84285 5.84344 4.34315 4.34315C5.84344 2.84285 7.87827 2 10 2C10.6 2 11.2 2.07 11.79 2.21L13.4 0.6C12.31 0.21 11.16 0 10 0ZM17 0L13 4V5.5L10.45 8.05C10.3 8 10.15 8 10 8C9.46957 8 8.96086 8.21071 8.58579 8.58579C8.21071 8.96086 8 9.46957 8 10C8 10.5304 8.21071 11.0391 8.58579 11.4142C8.96086 11.7893 9.46957 12 10 12C10.5304 12 11.0391 11.7893 11.4142 11.4142C11.7893 11.0391 12 10.5304 12 10C12 9.85 12 9.7 11.95 9.55L14.5 7H16L20 3H17V0ZM10 4C8.4087 4 6.88258 4.63214 5.75736 5.75736C4.63214 6.88258 4 8.4087 4 10C4 11.5913 4.63214 13.1174 5.75736 14.2426C6.88258 15.3679 8.4087 16 10 16C11.5913 16 13.1174 15.3679 14.2426 14.2426C15.3679 13.1174 16 11.5913 16 10H14C14 11.0609 13.5786 12.0783 12.8284 12.8284C12.0783 13.5786 11.0609 14 10 14C8.93913 14 7.92172 13.5786 7.17157 12.8284C6.42143 12.0783 6 11.0609 6 10C6 8.93913 6.42143 7.92172 7.17157 7.17157C7.92172 6.42143 8.93913 6 10 6V4Z" fill="#00CECE" />
+										</svg>
+										<div class="latest-block__info">
+											<div class="latest-block__name">Receive a Free CS:GO Skin</div>
+											<div class="latest-block__date">Oct 21, 2018</div>
+										</div>
+									</div>
+									<div class="latest-block__item">
+										<div class="latest-block__info">
+											<div class="latest-block__name">The Best Ursus Knife Skins in CS:GO</div>
+											<div class="latest-block__date">May 8, 2023</div>
+										</div>
+									</div>
+									<div class="latest-block__item">
+										<div class="latest-block__info">
+											<div class="latest-block__name">The Best CS2 Skins for Knives <br>
+												(Top 15 List)</div>
+											<div class="latest-block__date">May 8, 2023</div>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="latest-block__btn btn-blue"><span>see all</span></a>
+							</div>
+							<div class="aside-post__latest latest-block">
+								<h3 class="latest-block__title">Latest articles</h3>
+								<div class="latest-block__items">
+									<div class="latest-block__item">
+										<div class="latest-block__info">
+											<div class="latest-block__name">CS:GO Radio Commands and How to Use
+												Them</div>
+											<div class="latest-block__date">Apr 18, 2023</div>
+										</div>
+									</div>
+									<div class="latest-block__item">
+										<div class="latest-block__info">
+											<div class="latest-block__name">How To Get a Knife in CS:GO</div>
+											<div class="latest-block__date">Mar 28, 2023</div>
+										</div>
+									</div>
+									<div class="latest-block__item">
+										<div class="latest-block__info">
+											<div class="latest-block__name">How to 1v1 in CS:GO</div>
+											<div class="latest-block__date">Mar 14, 2023</div>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="latest-block__btn btn-blue"><span>see all</span></a>
+							</div>
+							<div data-da=".authors__category-mobile, 991.98" class="aside-post__block block-post">
+								<div class="block-post__category category-post">
+									<h3 class="category-post__title">Categories</h3>
+									<div class="category-post__items">
+										<a href="#" class="category-post__item">roulette</a>
+										<a href="#" class="category-post__item">crash</a>
+										<a href="#" class="category-post__item">coinflip</a>
+										<a href="#" class="category-post__item">match-betting</a>
+										<a href="#" class="category-post__item">dice</a>
+										<a href="#" class="category-post__item">csgo</a>
+										<a href="#" class="category-post__item">live-casino</a>
+										<a href="#" class="category-post__item">minesweeper</a>
+									</div>
+								</div>
+								<div class="aside-post__latest latest-block">
+									<h3 class="latest-block__title">Latest Guides</h3>
+									<div class="latest-block__items">
+										<div class="latest-block__item">
+											<div class="latest-block__info">
+												<div class="latest-block__name">CS:GO Radio Commands and How to Use
+													Them</div>
+												<div class="latest-block__date">Apr 18, 2023</div>
+											</div>
+										</div>
+										<div class="latest-block__item">
+											<div class="latest-block__info">
+												<div class="latest-block__name">How To Get a Knife in CS:GO</div>
+												<div class="latest-block__date">Mar 28, 2023</div>
+											</div>
+										</div>
+										<div class="latest-block__item">
+											<div class="latest-block__info">
+												<div class="latest-block__name">How to 1v1 in CS:GO</div>
+												<div class="latest-block__date">Mar 14, 2023</div>
+											</div>
+										</div>
+									</div>
+									<a href="#" class="latest-block__btn btn-blue"><span>see all</span></a>
+								</div>
+								<div class="block-post__partners partners-post">
+									<h3 class="partners-post__title">recomended Sites</h3>
+									<div class="partners-post__items">
+										<div class="partners-post__item partners-item">
+											<div class="partners-item__img"><picture><source srcset="img/home/featured-item-1.webp" type="image/webp"><img src="img/home/featured-item-1.jpg" alt="partners-item"></picture></div>
+											<div class="partners-item__info">
+												<h4 class="partners-item__title">stake</h4>
+												<div class="partners-item__text">Free coins</div>
+											</div>
+										</div>
+										<div class="partners-post__item partners-item">
+											<div class="partners-item__img"><picture><source srcset="img/home/featured-item-2.webp" type="image/webp"><img src="img/home/featured-item-2.jpg" alt="partners-item"></picture></div>
+											<div class="partners-item__info">
+												<h4 class="partners-item__title">HYPE</h4>
+												<div class="partners-item__text">Bonus on 1st deposit</div>
+											</div>
+										</div>
+										<div class="partners-post__item partners-item">
+											<div class="partners-item__img"><picture><source srcset="img/home/featured-item-3.webp" type="image/webp"><img src="img/home/featured-item-3.jpg" alt="partners-item"></picture></div>
+											<div class="partners-item__info">
+												<h4 class="partners-item__title">CSGOROLL</h4>
+												<div class="partners-item__text">Unlock ace’s rewards, with nearly
+													50% rakeback</div>
+											</div>
+										</div>
+										<div class="partners-post__item partners-item">
+											<div class="partners-item__img"><picture><source srcset="img/home/featured-item-4.webp" type="image/webp"><img src="img/home/featured-item-4.jpg" alt="partners-item"></picture></div>
+											<div class="partners-item__info">
+												<h4 class="partners-item__title">RustySaloon</h4>
+												<div class="partners-item__text">Claim 15% instant rakeback for
+													the first 7 days</div>
+											</div>
+										</div>
+										<div class="partners-post__item partners-item">
+											<div class="partners-item__img"><picture><source srcset="img/home/featured-item-5.webp" type="image/webp"><img src="img/home/featured-item-5.jpg" alt="partners-item"></picture></div>
+											<div class="partners-item__info">
+												<h4 class="partners-item__title">keydrop</h4>
+												<div class="partners-item__text">Up to 270% bonus on 1st deposit</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</aside>
+						<div class="review__body">
+							<h1 class="review__body-title heading__title">The Best Ursus Knife Skins in CS:GO</h1>
+							<div class="review__body-text">
+								<p>Knives have always been a part of the CS:GO arsenal and to this day, they are the only weapon that every player starts with, regardless of their team, as well as the only weapon that can’t be dropped.</p>
+								<p>Among the armory of different knives, one of the commonly used models is the Ursus knife which comes with a wide variety of skins and phases, so let’s take a look at the best Ursus knife skins in CS:GO.</p>
+							</div>
+							<div class="review__img">
+								<picture><source srcset="img/review/item-img.webp" type="image/webp"><img src="img/review/item-img.jpg" alt="item-img"></picture>
+							</div>
+							<div class="review__items">
+								<div class="review__item item-review">
+									<h3 class="item-review__title">
+										1. Ursus Knife | Doppler (Ruby)
+									</h3>
+									<div class="item-review__parag">
+										<p>
+											It's extremly simple. All you have to do is claim your tickets in profile tab. Profile tab can be found after you log in. To do that, find "SIGN IN" button at the top-right corner of the website. After you login, you'll see your profile tab. After you click "profile" it will redirect you to your profile page. In profile page you'll see tasks that you can complete to gain tickets (see screenshot below). After you claim tickets, you'll be able to join any giveaway you want. To do that just simply go to the giveaway page, select giveaway you want to join, type number of tickets you'd like to join with and click "ENTER" button.
+										</p>
+									</div>
+									<div class="item-review__img">
+										<picture><source srcset="img/review/item-img.webp" type="image/webp"><img src="img/review/item-img.jpg" alt="item-img"></picture>
+									</div>
+									<div class="item-review__bottom">
+										<button type="button" class="item-review__btn btn-blue">
+											<span>
+												Buy Ursus Knife | Doppler (Ruby)
+											</span>
+										</button>
+									</div>
+								</div>
+								<div class="review__item item-review">
+									<h3 class="item-review__title">
+										2. Ursus Knife | Doppler (Saphire)
+									</h3>
+									<div class="item-review__img">
+										<picture><source srcset="img/review/item-img.webp" type="image/webp"><img src="img/review/item-img.jpg" alt="item-img"></picture>
+									</div>
+									<div class="item-review__info">
+										<ul class="item-review__list">
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Flavor Text
+												</div>
+												<div class="item-review__text">
+													Getting lost in its color can prove fatal
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Added
+												</div>
+												<div class="item-review__text">
+													14 March 2019
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Quality
+												</div>
+												<div class="item-review__text item-review__text_covert">
+													Covert
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Starting Price
+												</div>
+												<div class="item-review__text">
+													$5195.99
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Case
+												</div>
+												<a href="#" class="item-review__link">
+													Prisma Case
+												</a>
+												<a href="#" class="item-review__link">
+													Prisma Case
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="item-review__bottom">
+										<button type="button" class="item-review__btn btn-blue">
+											<span>
+												Buy Ursus Knife | Doppler (Ruby)
+											</span>
+										</button>
+									</div>
+								</div>
+								<div class="review__item item-review">
+									<h3 class="item-review__title">
+										3. Ursus Knife | Marble Fade
+									</h3>
+									<div class="item-review__img">
+										<picture><source srcset="img/review/item-img.webp" type="image/webp"><img src="img/review/item-img.jpg" alt="item-img"></picture>
+									</div>
+									<div class="item-review__info">
+										<ul class="item-review__list">
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Flavor Text
+												</div>
+												<div class="item-review__text">
+													Getting lost in its color can prove fatal
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Added
+												</div>
+												<div class="item-review__text">
+													14 March 2019
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Quality
+												</div>
+												<div class="item-review__text item-review__text_covert">
+													Covert
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Starting Price
+												</div>
+												<div class="item-review__text">
+													$5195.99
+												</div>
+											</li>
+											<li class="item-review__item">
+												<div class="item-review__name">
+													Case
+												</div>
+												<a href="#" class="item-review__link">
+													Prisma Case
+												</a>
+												<a href="#" class="item-review__link">
+													Prisma Case
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="item-review__bottom">
+										<button type="button" class="item-review__btn btn-blue">
+											<span>
+												Buy Ursus Knife | Doppler (Ruby)
+											</span>
+										</button>
+									</div>
+								</div>
+							</div>
+							<h3 class="review__tags-title">tags</h3>
+							<div class="review__tags">
+								<a href="#" class="review__tag">
+									crash
+								</a>
+								<a href="#" class="review__tag">
+									coinflip
+								</a>
+								<a href="#" class="review__tag">
+									live-casino
+								</a>
+							</div>
+							<div class="review__slider-block">
+								<h3 class="review__slider-title title">Related posts</h3>
+								<div class="review__slider swiper">
+									<div class="review__wrapper swiper-wrapper">
+										<div class="review__slide swiper-slide slide-review">
+											<div class="slide-review__img">
+												<picture><source srcset="img/review/slider-img.webp" type="image/webp"><img src="img/review/slider-img.jpg" alt="slider-img"></picture>
+											</div>
+											<h3 class="slide-review__title">Deposit Failures: Most Common
+												Reasons</h3>
+											<div class="slide-review__info info-slide">
+												<div class="info-slide__img"><picture><source srcset="img/blog/author.webp" type="image/webp"><img src="img/blog/author.jpg" alt="author"></picture></div>
+												<div class="info-slide__text">
+													<div class="info-slide__name">DMarket</div>
+													<div class="info-slide__date">Mar 14, 2023</div>
+												</div>
+											</div>
+										</div>
+										<div class="review__slide swiper-slide slide-review">
+											<div class="slide-review__img">
+												<picture><source srcset="img/review/slider-img.webp" type="image/webp"><img src="img/review/slider-img.jpg" alt="slider-img"></picture>
+											</div>
+											<h3 class="slide-review__title">Deposit Failures: Most Common
+												Reasons</h3>
+											<div class="slide-review__info info-slide">
+												<div class="info-slide__img"><picture><source srcset="img/blog/author.webp" type="image/webp"><img src="img/blog/author.jpg" alt="author"></picture></div>
+												<div class="info-slide__text">
+													<div class="info-slide__name">DMarket</div>
+													<div class="info-slide__date">Mar 14, 2023</div>
+												</div>
+											</div>
+										</div>
+										<div class="review__slide swiper-slide slide-review">
+											<div class="slide-review__img">
+												<picture><source srcset="img/review/slider-img.webp" type="image/webp"><img src="img/review/slider-img.jpg" alt="slider-img"></picture>
+											</div>
+											<h3 class="slide-review__title">Deposit Failures: Most Common
+												Reasons</h3>
+											<div class="slide-review__info info-slide">
+												<div class="info-slide__img"><picture><source srcset="img/blog/author.webp" type="image/webp"><img src="img/blog/author.jpg" alt="author"></picture></div>
+												<div class="info-slide__text">
+													<div class="info-slide__name">DMarket</div>
+													<div class="info-slide__date">Mar 14, 2023</div>
+												</div>
+											</div>
+										</div>
+										<div class="review__slide swiper-slide slide-review">
+											<div class="slide-review__img">
+												<picture><source srcset="img/review/slider-img.webp" type="image/webp"><img src="img/review/slider-img.jpg" alt="slider-img"></picture>
+											</div>
+											<h3 class="slide-review__title">Deposit Failures: Most Common
+												Reasons</h3>
+											<div class="slide-review__info info-slide">
+												<div class="info-slide__img"><picture><source srcset="img/blog/author.webp" type="image/webp"><img src="img/blog/author.jpg" alt="author"></picture></div>
+												<div class="info-slide__text">
+													<div class="info-slide__name">DMarket</div>
+													<div class="info-slide__date">Mar 14, 2023</div>
+												</div>
+											</div>
+										</div>
+										<div class="review__slide swiper-slide slide-review">
+											<div class="slide-review__img">
+												<picture><source srcset="img/review/slider-img.webp" type="image/webp"><img src="img/review/slider-img.jpg" alt="slider-img"></picture>
+											</div>
+											<h3 class="slide-review__title">Deposit Failures: Most Common
+												Reasons</h3>
+											<div class="slide-review__info info-slide">
+												<div class="info-slide__img"><picture><source srcset="img/blog/author.webp" type="image/webp"><img src="img/blog/author.jpg" alt="author"></picture></div>
+												<div class="info-slide__text">
+													<div class="info-slide__name">DMarket</div>
+													<div class="info-slide__date">Mar 14, 2023</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="button" class="review__slider-btn review__slider-prev">
+									<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.41016 1.42L2.83016 6L7.41016 10.59L6.00016 12L0.000156927 6L6.00016 -1.23266e-07L7.41016 1.42Z" fill="#ffffff" />
+									</svg>
+								</button>
+								<button type="button" class="review__slider-btn review__slider-next">
+									<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.589844 10.58L5.16984 6L0.589844 1.41L1.99984 0L7.99984 6L1.99984 12L0.589844 10.58Z" fill="#ffffff" />
+									</svg>
+								</button>
+							</div>
+							<div class="authors__category-mobile"></div>
 						</div>
-						<h1 class="error__title">
-							Page not found!
-						</h1>
-						<div class="error__text">
-							Requested page has not been found
+						<div data-da=".authors__category-mobile, 991.98" class="review__aside aside-post">
+							<div class="aside-post__author author-review">
+								<div class="author-review__item">
+									<div class="author-review__img">
+										<picture><source srcset="img/blog/author.webp" type="image/webp"><img src="img/blog/author.jpg" alt="author"></picture>
+									</div>
+									<div class="author-review__info">
+										<div class="author-review__title">DMarket</div>
+										<div class="author-review__date">Mar 14, 2023</div>
+									</div>
+								</div>
+								<div class="author-review__socials">
+									<a href="#" class="author-review__soc">
+										<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M6.23896 16V8.70219H8.68755L9.05491 5.85725H6.23896V4.04118C6.23896 3.21776 6.46668 2.65661 7.64879 2.65661L9.15402 2.65599V0.111384C8.89371 0.0775563 8.00017 0 6.96017 0C4.78849 0 3.30172 1.32557 3.30172 3.75942V5.85725H0.845703V8.70219H3.30172V16H6.23896Z" fill="white" />
+										</svg>
+									</a>
+									<a href="#" class="author-review__soc">
+										<svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M17.6155 1.65738C16.9748 1.93846 16.292 2.12477 15.5802 2.21523C16.3125 1.778 16.8714 1.09092 17.1342 0.262769C16.4514 0.669846 15.6975 0.957385 14.8942 1.11785C14.2458 0.427539 13.3218 0 12.3138 0C10.3582 0 8.78369 1.58738 8.78369 3.53339C8.78369 3.81339 8.80738 4.08262 8.86554 4.33892C5.92877 4.19569 3.33015 2.78815 1.58446 0.644C1.27969 1.17277 1.10092 1.778 1.10092 2.42954C1.10092 3.65292 1.73092 4.73738 2.67 5.36523C2.10246 5.35446 1.54569 5.18969 1.074 4.93015C1.074 4.94092 1.074 4.95492 1.074 4.96892C1.074 6.68554 2.29846 8.11139 3.90415 8.43985C3.61661 8.51846 3.30323 8.55615 2.978 8.55615C2.75184 8.55615 2.52354 8.54323 2.30923 8.49585C2.76692 9.89477 4.06569 10.9232 5.61 10.9566C4.40815 11.8968 2.88215 12.4632 1.23015 12.4632C0.940458 12.4632 0.662612 12.4503 0.384766 12.4148C1.94953 13.4238 3.804 14 5.80384 14C12.3042 14 15.858 8.61539 15.858 3.948C15.858 3.79185 15.8526 3.64108 15.8451 3.49138C16.5462 2.99385 17.1352 2.37246 17.6155 1.65738Z" fill="white" />
+										</svg>
+									</a>
+									<a href="#" class="author-review__soc">
+										<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M3.96574 9.60758C7.88029 11.0921 11.2116 11.3812 14.9866 9.07057C14.959 9.1109 14.2122 10.1859 12.2485 10.7368C12.6634 11.2878 13.2304 11.9194 13.2304 11.9194C14.4888 11.9194 15.7196 11.57 16.7844 10.8981C17.6141 10.3606 18.0843 9.43336 17.9875 8.46587C17.8215 6.81299 17.4205 5.20045 16.7982 3.65513C16.01 1.63947 14.1154 0.241915 11.9166 0.0403325C11.723 0.0268884 11.5847 0.0268884 11.5018 0.0268884L11.2805 0.241875C13.8112 0.940652 15.0696 2.02911 15.0973 2.06944C11.2113 0.16125 6.62016 0.134401 2.70655 1.98882C2.70655 1.98882 3.95116 0.792846 6.70309 0.16125L6.53715 0C6.24673 0 5.97014 0.0268882 5.67976 0.0671808C3.64691 0.403125 1.94597 1.76035 1.21303 3.62821C0.576886 5.24075 0.16203 6.93391 0.00992269 8.65396C-0.0730486 9.56773 0.369479 10.4681 1.14389 10.9922C2.16722 11.6506 3.38416 12 4.61493 12C4.61493 12 5.11276 11.3684 5.61063 10.804C3.74371 10.2665 2.98314 9.19149 2.9693 9.15116L3.32065 9.32549C3.53068 9.42977 3.74601 9.52424 3.96574 9.60758ZM6.13613 8.43898C5.23724 8.41209 4.53196 7.67302 4.55963 6.7861C4.5873 5.95297 5.27874 5.28108 6.13613 5.25419C7.03502 5.28108 7.74029 6.02015 7.71262 6.90706C7.67112 7.74024 6.99351 8.41213 6.13613 8.43898ZM11.7783 8.43898C10.8794 8.41209 10.1741 7.67302 10.2018 6.7861C10.2295 5.95297 10.9209 5.28108 11.7783 5.25419C12.6772 5.28108 13.3825 6.02015 13.3548 6.90706C13.3272 7.74024 12.6357 8.41213 11.7783 8.43898Z" fill="white" />
+										</svg>
+									</a>
+									<a href="#" class="author-review__soc">
+										<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7.2 8.57143L11.871 6L7.2 3.42857V8.57143ZM17.604 1.86C17.721 2.26286 17.802 2.80286 17.856 3.48857C17.919 4.17429 17.946 4.76571 17.946 5.28L18 6C18 7.87714 17.856 9.25714 17.604 10.14C17.379 10.9114 16.857 11.4086 16.047 11.6229C15.624 11.7343 14.85 11.8114 13.662 11.8629C12.492 11.9229 11.421 11.9486 10.431 11.9486L9 12C5.229 12 2.88 11.8629 1.953 11.6229C1.143 11.4086 0.621 10.9114 0.396 10.14C0.279 9.73714 0.198 9.19714 0.144 8.51143C0.0810001 7.82571 0.0539999 7.23429 0.0539999 6.72L0 6C0 4.12286 0.144 2.74286 0.396 1.86C0.621 1.08857 1.143 0.591429 1.953 0.377143C2.376 0.265714 3.15 0.188571 4.338 0.137143C5.508 0.0771427 6.579 0.0514285 7.569 0.0514285L9 0C12.771 0 15.12 0.137143 16.047 0.377143C16.857 0.591429 17.379 1.08857 17.604 1.86Z" fill="white" />
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="author-review__banner">
+								<picture><source srcset="img/review/banner-aside.webp" type="image/webp"><img src="img/review/banner-aside.png" alt="aside-banner"></picture>
+							</div>
 						</div>
+
 					</div>
 				</div>
 			</section>
