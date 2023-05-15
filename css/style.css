@@ -1974,9 +1974,6 @@ body {
 
 .aside-post {
   padding: 1.875rem 0.9375rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#090F30), color-stop(50%, rgba(12, 31, 67, 0.3)), to(#090F30));
-  background: -o-linear-gradient(top, #090F30 0%, rgba(12, 31, 67, 0.3) 50%, #090F30 100%);
-  background: linear-gradient(180deg, #090F30 0%, rgba(12, 31, 67, 0.3) 50%, #090F30 100%);
 }
 
 .aside-post__btns {
@@ -3979,6 +3976,14 @@ body {
   }
 }
 
+@media (min-width: 61.99875em) {
+  .aside-post {
+    background: -webkit-gradient(linear, left top, left bottom, from(#090F30), color-stop(50%, rgba(12, 31, 67, 0.3)), to(#090F30));
+    background: -o-linear-gradient(top, #090F30 0%, rgba(12, 31, 67, 0.3) 50%, #090F30 100%);
+    background: linear-gradient(180deg, #090F30 0%, rgba(12, 31, 67, 0.3) 50%, #090F30 100%);
+  }
+}
+
 @media (min-width: 68.125em) {
   .promo__title-1 {
     display: block;
@@ -5958,10 +5963,6 @@ body {
     display: none;
   }
 
-  .brand-post__name {
-    max-width: 9.375rem;
-  }
-
   .author__info {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -6155,6 +6156,14 @@ body {
 
   .most__items {
     grid-template-columns: repeat(auto-fit, minmax(18.125rem, 1fr));
+  }
+
+  .brand-post__name {
+    max-width: 7.8125rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
   }
 
   .error__text {
