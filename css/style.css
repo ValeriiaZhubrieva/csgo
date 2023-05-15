@@ -1526,7 +1526,13 @@ body {
   width: 0;
 }
 
-.list__table {
+.table-list {
+  width: 100%;
+}
+
+.table-list__row {
+  border-bottom: 1px solid #0C1F43;
+  padding: 1rem 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(11.875rem, 1fr) minmax(6.25rem, 1fr) minmax(8.75rem, 1fr) minmax(23.75rem, 1fr) minmax(16.875rem, 1fr);
@@ -1535,14 +1541,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #7B8CAC;
-}
-
-.table-list {
-  border-bottom: 1px solid #0C1F43;
-}
-
-.table-list__item {
-  padding: 1rem 0;
 }
 
 .table-list__item--head {
@@ -1649,7 +1647,6 @@ body {
 .list-best__title {
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0.9375rem;
   padding-left: 1.875rem;
   position: relative;
 }
@@ -2351,9 +2348,21 @@ body {
   height: 1.125rem;
 }
 
+.brand-post__table {
+  width: 100%;
+}
+
 .brand-post__text {
   color: #7B8CAC;
   line-height: 1.2;
+  max-width: 62.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 62.5rem;
+          flex: 1 1 62.5rem;
 }
 
 .author {
@@ -3729,12 +3738,12 @@ body {
   margin-bottom: 1.875rem;
 }
 
-.item-review__info:not(:last-child) {
-  margin-bottom: 1.875rem;
-}
-
 .item-review__list {
   list-style: circle;
+}
+
+.item-review__list:not(:last-child) {
+  margin-bottom: 1.875rem;
 }
 
 .item-review__item {
@@ -4311,10 +4320,6 @@ body {
 
   .table-list__item {
     font-size: 1rem;
-  }
-
-  .table-list__item--head {
-    padding-bottom: 1.875rem;
   }
 
   .faq__inner {
@@ -5093,10 +5098,6 @@ body {
     font-size: 0.875rem;
   }
 
-  .table-list__item--head {
-    padding-bottom: 0.5rem;
-  }
-
   .faq__inner {
     padding-bottom: 1.875rem;
   }
@@ -5763,7 +5764,7 @@ body {
 }
 
 @media (max-width: 69.375em) {
-  .list__table {
+  .table-list__row {
     width: 68.75rem;
   }
 }
@@ -6920,18 +6921,6 @@ body {
 @supports not (font-size: clamp( 0.875rem , 0.8484219269rem  +  0.1328903654vw , 1rem )) {
     .table-list__item {
       font-size: calc(0.875rem + 0.125 * (100vw - 20rem) / 94.0625);
-    }
-}
-
-@supports (padding-bottom: clamp( 0.5rem , 0.207641196rem  +  1.4617940199vw , 1.875rem )) {
-    .table-list__item--head {
-      padding-bottom: clamp( 0.5rem , 0.207641196rem  +  1.4617940199vw , 1.875rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 0.5rem , 0.207641196rem  +  1.4617940199vw , 1.875rem )) {
-    .table-list__item--head {
-      padding-bottom: calc(0.5rem + 1.375 * (100vw - 20rem) / 94.0625);
     }
 }
 
